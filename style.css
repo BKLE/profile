@@ -1,5 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #0C1C22;
@@ -121,25 +143,4 @@ input[type="checkbox"]:checked ~ ul{
 input[type="checkbox"]:checked + label{
   background: #ADCCC7;
   border-bottom: 1px solid #fff;
-}
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
-
-@media (max-width: 600px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 400px;
-  }
-}
-
-@media (max-width: 400px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
 }
