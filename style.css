@@ -130,14 +130,14 @@ input[type="checkbox"]:checked + label{
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
-    width: 500px;
+    width: 400px;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 300px;
